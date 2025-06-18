@@ -6,9 +6,12 @@
     padding: 0;
     background-color: #24252A ;
 }
-body {
-     
- }
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 li,a,button{
    font-family: "Montserrat", sans-serif ;
    font-weight: 500;
@@ -19,6 +22,7 @@ li,a,button{
 }
 
 header{
+    position: relative;
     display:flex;
     justify-content: flex-end;
     align-items: center;
@@ -72,11 +76,22 @@ button{
 button:hover{
     background-color:rgba(0, 136, 169, 0.8 ) ;
 }
+
+
+
+main{
+    width: 100%;
+   flex: 1;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+
+}
 .container {
-      height: 500px;
-      padding: 20px;
+    width: 100%;
+      height: 100%;
       background-image: url('Albert_Einstein_Head_H3000x1688.jpg'); 
-      background-size: cover; 
+      background-size: contain; 
       background-repeat: no-repeat; 
       background-position: center; 
       font-family: Arial, sans-serif;

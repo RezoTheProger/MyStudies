@@ -7,10 +7,8 @@
     background-color: #24252A ;
 }
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
+     
+ }
 li,a,button{
    font-family: "Montserrat", sans-serif ;
    font-weight: 500;
@@ -74,7 +72,13 @@ button{
 button:hover{
     background-color:rgba(0, 136, 169, 0.8 ) ;
 }
-main{
-    height: 600px;
-
+.container {
+      height: 500px;
+      padding: 20px;
+      background-image: url('Albert_Einstein_Head_H3000x1688.jpg'); 
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      background-position: center; 
+      font-family: Arial, sans-serif;
+      color: white;
 }

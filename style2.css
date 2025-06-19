@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A ;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container{
+border: 3px solid black;
+background-color: whitesmoke;
+border-radius: 30px;
+
+padding: 130px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+}

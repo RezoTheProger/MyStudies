@@ -86,14 +86,14 @@ main{
    justify-content: end;
 
 }
-.container {
+.quote-image img {
     width: 100%;
       height: 100%;
       margin-right: auto;
       background-image: url('ChatGPT Image Jun 19, 2025, 12_36_20 PM.png'); 
-      background-size: contain ; 
+      background-size: cover ; 
       background-repeat: no-repeat; 
       background-position: start; 
       font-family: Arial, sans-serif;
-      color: white;
+      color: white;
 }
